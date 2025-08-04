@@ -25,6 +25,6 @@ const pics = document.getElementsByClassName("pic");
 
 for (let i = 0; i < pics.length; i++) {
     const seed = `user${Math.floor(Math.random() * (100 - 1))}`;
-    pics[i].src = `/img/avatars/avatar` + (Math.floor(Math.random() * 20) + 1).toString() + ".svg";
+    pics[i].src = `/img/avatars/avatar` + (i).toString() + ".svg";
 }
 
