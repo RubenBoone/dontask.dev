@@ -23,5 +23,5 @@ setInterval(() => {
 
 const pics = document.getElementsByClassName("pic");
 for (let i = 0; i< pics.length; i++){
-    pics[i].src = "https://avatar.iran.liara.run/public/" + Math.floor(Math.random() * (100 - 1));
+    pics[i].src = "https://i.pravatar.cc/64?u=" + Math.floor(Math.random() * (1000 - 1));
 }
