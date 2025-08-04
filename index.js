@@ -22,6 +22,9 @@ setInterval(() => {
 }, 1000)
 
 const pics = document.getElementsByClassName("pic");
-for (let i = 0; i< pics.length; i++){
-    pics[i].src = "https://i.pravatar.cc/64?u=" + Math.floor(Math.random() * (1000 - 1));
+
+for (let i = 0; i < pics.length; i++) {
+    const seed = `user${Math.floor(Math.random() * (100 - 1))}`;
+    pics[i].src = `https://api.dicebear.com/9.x/pixel-art-neutral/svg?size=64&seed=${seed}`;
 }
+
