@@ -20,5 +20,3 @@ setInterval(() => {
         }
     }
 }, 1000)
-
-const pics = document.getElementsByClassName("pic");
