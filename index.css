@@ -1,4 +1,4 @@
-h3 {
+h3, .subtext {
     color: rgb(188, 183, 183);
     font-size: 1.2em;
 }
@@ -19,7 +19,7 @@ h3 {
 
 .magicCounter {
     font-weight: bolder;
-    color: #7ad644;
+    color: #AE1414;
 }
 
 .chat {
