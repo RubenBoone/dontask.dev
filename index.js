@@ -24,7 +24,6 @@ setInterval(() => {
 const pics = document.getElementsByClassName("pic");
 
 for (let i = 0; i < pics.length; i++) {
-    const seed = `user${Math.floor(Math.random() * (100 - 1))}`;
-    pics[i].src = `/img/avatars/avatar` + (i).toString() + ".svg";
+    pics[i].src = `/img/avatars/avatar` + (i + 1).toString() + ".svg";
 }
 
