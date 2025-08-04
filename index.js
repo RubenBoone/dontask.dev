@@ -22,8 +22,3 @@ setInterval(() => {
 }, 1000)
 
 const pics = document.getElementsByClassName("pic");
-
-for (let i = 0; i < pics.length; i++) {
-    pics[i].src = `/img/avatars/avatar` + (i + 1).toString() + ".svg";
-}
-
