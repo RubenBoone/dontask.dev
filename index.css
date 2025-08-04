@@ -1,0 +1,58 @@
+h3 {
+    color: rgb(188, 183, 183);
+    font-size: 1.2em;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    height: 5rem; /* or whatever height you want */
+}
+
+.card i {
+    padding-right: 2rem;
+}
+
+.card {
+    padding: 0;
+}
+
+.magicCounter {
+    font-weight: bolder;
+    color: #7ad644;
+}
+
+.chat {
+    background-color: #ede9e9;
+    border-radius: 25px;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: gray 2px 2px 5px;
+}
+
+.chat img {
+    width: 64px;
+    height: 64px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    box-shadow: gray 3px 2px 3px;
+    border: black 3px solid;
+}
+
+.chat li {
+    display: flex;
+    align-items: center;
+    list-style-image: none;
+    background-color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 25px;
+}
+
+.chat-left {
+}
+
+.chat-right {
+    text-align: right;
+    flex-direction: row-reverse;
+}
